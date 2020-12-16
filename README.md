@@ -1,2 +1,2 @@
-# Resume-CV-Design-N19
-How to create the Resume/CV Design using HTML and CSS
+# Resume CV
+create the Resume Design using HTML and CSS
