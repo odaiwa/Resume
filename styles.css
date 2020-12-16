@@ -106,7 +106,14 @@ body {
 .resume .resume_left ul li .data {
   color: #b1eaff;
 }
-
+.resume .resume_left ul li .data1 {
+  text-decoration-line: underline;
+  color: #b1eaff;
+  cursor: pointer;
+}
+.resume .resume_left ul li .data1.button:hover{
+  background-color: #ffffff;
+}
 .resume .resume_left .resume_skills ul li {
   display: flex;
   margin-bottom: 10px;
