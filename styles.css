@@ -232,3 +232,62 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+.button {
+  border-radius: 4px;
+  background-color: #1e22f4;
+  border: none;
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1 {
+  padding: 12px 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fdfdfd;
+  background-color: #1E22F4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover {background-color: #2f7fa5}
+
+.button1:active {
+  background-color: #2f7fa5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
